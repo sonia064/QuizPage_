@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.home{
+  margin-left: 45%;
+  color: #ff005d;
+  font-size: 40px;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.page {
+  background-color: #f4ffea;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.top-row button {
+  margin: 10px;
+  padding: 20px 60px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 175px;
+  height: 57px;
+  background-color: #9100ec;
+  border: 3px solid #000000;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 450px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.box {
+  width: 400px;
+  height: 410px;
+  background-color: #eaff00;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin: 26px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box img {
+  max-width: 100%;
+  height: 60%;
+  margin-bottom: 50px;
+}
+
+.box button {
+  padding: 15px 45px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #ff007b; 
+  color: white; 
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition: background-color 0.2s;
+}
+
+.box button:hover {
+  background-color: #ad003f; 
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .home {
+    margin-left: 0;
+    font-size: 32px;
+  }
+
+  .top-row {
+    margin-left: 40px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .box-container {
+    margin-left: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 80%;
+    margin: 10px 0;
+  }
+}
